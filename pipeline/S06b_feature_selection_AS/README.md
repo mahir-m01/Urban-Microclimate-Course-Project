@@ -1,7 +1,7 @@
 # Stage S06b: Feature Selection and PCA Experiments
 
 **Stage:** S06b (Isolated Sub-experiment)  
-**Repository:** [Urban-Microclimate-Modelling](https://github.com/mahir-m01/Urban-Microclimate-Modelling)  
+**Repository:** [Urban-Microclimate-Course-Project](https://github.com/mahir-m01/Urban-Microclimate-Course-Project)  
 **Branch:** `feature/s06b-feature-selection-pca`  
 
 ---

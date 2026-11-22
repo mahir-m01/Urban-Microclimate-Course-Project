@@ -1,6 +1,6 @@
 <p align="center"><img src="reports/figures/banner.jpg" width="100%" alt="Urban Microclimate Modelling: neural surrogates of large-eddy simulation for pedestrian-level wind in unseen cities"></p>
 
-[![CI](https://img.shields.io/github/actions/workflow/status/mahir-m01/Urban-Microclimate-Modelling/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white&labelColor=24292f&style=flat-square)](https://github.com/mahir-m01/Urban-Microclimate-Modelling/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/mahir-m01/Urban-Microclimate-Course-Project/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white&labelColor=24292f&style=flat-square)](https://github.com/mahir-m01/Urban-Microclimate-Course-Project/actions/workflows/ci.yml)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-3776ab?logo=python&logoColor=white&labelColor=24292f&style=flat-square)](https://www.python.org/)
 [![uv](https://img.shields.io/badge/env-uv-6340ac?logo=uv&logoColor=white&labelColor=24292f&style=flat-square)](https://github.com/astral-sh/uv)
 [![Ruff](https://img.shields.io/badge/lint-ruff-c2410c?logo=ruff&logoColor=white&labelColor=24292f&style=flat-square)](https://github.com/astral-sh/ruff)
@@ -340,7 +340,7 @@ uv run python pipeline/S16_frozen_test/s16_score.py                # frozen test
 ## Repository structure
 
 ```text
-Urban-Microclimate-Modelling/
+Urban-Microclimate-Course-Project/
 ├── data/                           case catalog, metadata, name map, frozen splits
 ├── demo/                           Phase 2 demo: the trained U-Net on real and new layouts
 ├── src/urbanwind/                  shared package: loader, metrics, evaluator, splits, features
