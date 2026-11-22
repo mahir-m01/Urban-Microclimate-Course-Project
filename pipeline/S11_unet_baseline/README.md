@@ -104,7 +104,7 @@ uv run python pipeline/S11_unet_baseline/s11_results.py
 2. Clone the repository, link the cache to `data/processed/dl`, and run with the platform's own PyTorch:
 
 ```bash
-git clone https://github.com/mahir-m01/Urban-Microclimate-Modelling.git repo && cd repo
+git clone https://github.com/mahir-m01/Urban-Microclimate-Course-Project.git repo && cd repo
 mkdir -p data/processed && ln -s "$(dirname "$(find /kaggle/input -name UA25_d45.npz | head -1)")" data/processed/dl
 PYTHONPATH=src:. python -m urbanwind.dl.train --config pipeline/S11_unet_baseline/configs/unet.yaml --seed 0 --folds 0
 ```
